@@ -1,0 +1,301 @@
+logcat -d --uid=10217 *:V
+
+--------- beginning of system
+10-22 19:42:22.331 15336 15336 D TranClassInfo: instance successfully. com.transsion.hubcore.graphics.TranGraphicImpl@80554ac from com.transsion.hubcore.graphics.ITranGraphic
+10-22 19:42:22.642 15336 15336 D TranClassInfo: instance successfully. com.transsion.hubcore.app.TranActivityImpl@a93f4bb from com.transsion.hubcore.app.ITranActivity
+10-22 19:42:22.642 15336 15336 D TranActivityAppturboImpl: attach
+10-22 19:42:22.649 15336 15336 D TranClassInfo: instance successfully. com.transsion.hubcore.appturbo.TranAppturboServiceImpl@9325dd8 from com.transsion.hubcore.appturbo.ITranAppturboService
+10-22 19:42:22.650 15336 15336 D TranClassInfo: instance successfully. com.transsion.hubcore.appturbo.TranAppturboPolicyImpl@19f531 from com.transsion.hubcore.appturbo.ITranAppturboPolicy
+10-22 19:42:22.656 15336 15360 D TranClassInfo: instance successfully. com.transsion.hubcore.database.sqlite.TranSQLiteDatabaseImpl@c64ed08 from com.transsion.hubcore.database.sqlite.ITranSQLiteDatabase
+10-22 19:42:22.658 15336 15336 D TranClassInfo: instance successfully. com.transsion.hubcore.view.TranViewImpl@8dfd1b4 from com.transsion.hubcore.view.ITranView
+10-22 19:42:22.664 15336 15336 D TranClassInfo: instance successfully. com.transsion.hubcore.internal.TranInternalViewImpl@6c6409e from com.transsion.hubcore.internal.ITranInternalView
+10-22 19:42:22.678 15336 15336 D TranActivityAppturboImpl: onResumeHork
+10-22 19:42:22.710 15336 15336 D TranClassInfo: instance successfully. com.transsion.hubcore.flingmanager.TranFlingManagerImpl@283b28b from com.transsion.hubcore.flingmanager.ITranFlingManager
+10-22 19:42:22.710 15336 15336 D TranClassInfo: instance successfully. com.transsion.hubcore.view.TranChoreographerImpl@4fb8f68 from com.transsion.hubcore.view.ITranChoreographer
+10-22 19:42:22.710 15336 15336 D TranClassInfo: instance successfully. com.transsion.hubcore.appturbo.Implement.TranAppturboComponentImpl@73def81 from com.transsion.hubcore.appturbo.ITranAppturboComponent
+10-22 19:42:26.975 15336 15336 D TranClassInfo: instance successfully. com.transsion.hubcore.internal.policy.TranDecorViewImpl@e873bf2 from com.transsion.hubcore.internal.policy.ITranDecorView
+10-22 19:42:34.145 15336 15336 D TranActivityAppturboImpl: attach
+10-22 19:42:34.170 15336 15336 D TranActivityAppturboImpl: onResumeHork
+--------- beginning of main
+10-22 19:45:29.356 17534 17534 W main    : type=1400 audit(0.0:2184): avc: denied { read } for name="u:object_r:vendor_memfusion_size_prop:s0" dev="tmpfs" ino=8842 scontext=u:r:untrusted_app:s0:c217,c256,c512,c768 tcontext=u:object_r:vendor_memfusion_size_prop:s0 tclass=file permissive=0 app=org.fdroid.fdroid
+10-22 19:45:29.356 17534 17534 W main    : type=1400 audit(0.0:2185): avc: denied { read } for name="u:object_r:vendor_memfusion_state_prop:s0" dev="tmpfs" ino=8843 scontext=u:r:untrusted_app:s0:c217,c256,c512,c768 tcontext=u:object_r:vendor_memfusion_state_prop:s0 tclass=file permissive=0 app=org.fdroid.fdroid
+10-22 19:45:29.356 17534 17534 W main    : type=1400 audit(0.0:2186): avc: denied { read } for name="u:object_r:vendor_memfusion_tranlog_prop:s0" dev="tmpfs" ino=8845 scontext=u:r:untrusted_app:s0:c217,c256,c512,c768 tcontext=u:object_r:vendor_memfusion_tranlog_prop:s0 tclass=file permissive=0 app=org.fdroid.fdroid
+10-22 19:45:29.356 17534 17534 W main    : type=1400 audit(0.0:2187): avc: denied { read } for name="u:object_r:vendor_memfusion_ui_enable_prop:s0" dev="tmpfs" ino=8846 scontext=u:r:untrusted_app:s0:c217,c256,c512,c768 tcontext=u:object_r:vendor_memfusion_ui_enable_prop:s0 tclass=file permissive=0 app=org.fdroid.fdroid
+10-22 19:45:29.356 17534 17534 W main    : type=1400 audit(0.0:2188): avc: denied { read } for name="u:object_r:vendor_uxcompaction_enable_prop:s0" dev="tmpfs" ino=9090 scontext=u:r:untrusted_app:s0:c217,c256,c512,c768 tcontext=u:object_r:vendor_uxcompaction_enable_prop:s0 tclass=file permissive=0 app=org.fdroid.fdroid
+10-22 19:45:29.361 17534 17534 I g.fdroid.fdroid: Using generational CollectorTypeCC GC.
+10-22 19:45:29.368 17534 17534 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+10-22 19:45:29.397 17534 17534 I ActivityThread: Relaunch all activities: onCoreSettingsChange
+10-22 19:45:29.397 17534 17534 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10217; state: ENABLED
+10-22 19:45:29.400 17534 17534 D TranClassInfo: instance successfully. com.transsion.hubcore.graphics.TranGraphicImpl@80554ac from com.transsion.hubcore.graphics.ITranGraphic
+10-22 19:45:29.400 17534 17534 D os.SingleLiceFactory: instance successfully. com.transsion.typeface.v1.TypefaceLice@4bb37d8 from android.graphics.IGraphicLice
+10-22 19:45:29.400 17534 17534 D os.LiceInfo: instance successfully. com.transsion.graphics.GraphicLice@319a575 from android.graphics.IGraphicLice
+10-22 19:45:29.466 17534 17534 D nativeloader: Configuring clns-4 for other apk /data/app/~~ehzUkcxKnVy6y1qt1gljCQ==/org.fdroid.fdroid-ze_zuK71KvZNijBL8-jcEA==/base.apk. target_sdk_version=37, uses_libraries=, library_path=/data/app/~~ehzUkcxKnVy6y1qt1gljCQ==/org.fdroid.fdroid-ze_zuK71KvZNijBL8-jcEA==/lib/arm64:/data/app/~~ehzUkcxKnVy6y1qt1gljCQ==/org.fdroid.fdroid-ze_zuK71KvZNijBL8-jcEA==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/org.fdroid.fdroid
+10-22 19:45:29.529 17534 17534 D nativeloader: Load libframework-connectivity-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity.jar: ok
+10-22 19:45:29.533 17534 17534 V GraphicsEnvironment: ANGLE Developer option for 'org.fdroid.fdroid' set to: 'default'
+10-22 19:45:29.533 17534 17534 V GraphicsEnvironment: ANGLE GameManagerService for org.fdroid.fdroid: false
+10-22 19:45:29.533 17534 17534 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+10-22 19:45:29.573 17534 17534 I LoadedApk: No resource references to update in package com.transsion.theme.icon
+10-22 19:45:29.573 17534 17534 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+10-22 19:45:29.577 17534 17534 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+10-22 19:45:29.587 17534 17534 I ACRA    : ACRA is enabled for org.fdroid.fdroid, initializing...
+10-22 19:45:29.626 17534 17534 D CompatibilityChangeReporter: Compat change id reported: 183155436; UID 10217; state: ENABLED
+10-22 19:45:29.630 17534 17534 D os.SingleLiceFactory: using android.app.IActivityThreadLice$DefaultImpl@460990c instead of com.transsion.activityembedding.ActivityEmbeddingLiceFactory  from android.app.IActivityThreadLice
+10-22 19:45:29.631 17534 17555 W AsyncDrawableCache: can not found res: 2131230908, maybe dynamic res id.
+10-22 19:45:29.631 17534 17555 W AsyncDrawableCache: can not found res: 2131230905, maybe dynamic res id.
+10-22 19:45:29.631 17534 17555 W AsyncDrawableCache: can not found res: 2131492864, maybe dynamic res id.
+10-22 19:45:29.631 17534 17555 W AsyncDrawableCache: can not found res: 2131230906, maybe dynamic res id.
+10-22 19:45:29.709 17534 17534 D WM-PackageManagerHelper: Skipping component enablement for androidx.work.impl.background.systemjob.SystemJobService
+10-22 19:45:29.709 17534 17534 D WM-Schedulers: Created SystemJobScheduler and enabled SystemJobService
+10-22 19:45:29.710 17534 17560 D WM-ForceStopRunnable: The default process name was not specified.
+10-22 19:45:29.710 17534 17534 I RepoUpdateWorker: scheduleOrCancel: enqueueUniquePeriodicWork
+10-22 19:45:29.711 17534 17560 D WM-ForceStopRunnable: Performing cleanup operations.
+10-22 19:45:29.712 17534 17534 I AppUpdateWorker: scheduleOrCancel: enqueueUniquePeriodicWork
+10-22 19:45:29.723 17534 17563 D libMEOW : meow new tls: 0xb400007c4bea70b0
+10-22 19:45:29.726 17534 17563 D libMEOW : meow reload base cfg path: na
+10-22 19:45:29.726 17534 17563 D libMEOW : meow reload overlay cfg path: na
+10-22 19:45:29.732 17534 17534 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+10-22 19:45:29.733 17534 17560 D TranClassInfo: instance successfully. com.transsion.hubcore.database.sqlite.TranSQLiteDatabaseImpl@fa1dd4a from com.transsion.hubcore.database.sqlite.ITranSQLiteDatabase
+10-22 19:45:29.738 17534 17534 D TranClassInfo: instance successfully. com.transsion.hubcore.app.TranActivityImpl@8a88416 from com.transsion.hubcore.app.ITranActivity
+10-22 19:45:29.739 17534 17534 D TranActivityAppturboImpl: attach
+10-22 19:45:29.740 17534 17560 D WM-SystemJobScheduler: Reconciling jobs
+10-22 19:45:29.744 17534 17560 D CompatibilityChangeReporter: Compat change id reported: 160794467; UID 10217; state: ENABLED
+10-22 19:45:29.747 17534 17563 I libMEOW_gift: open /data/performance/gift/arc.ini
+10-22 19:45:29.748 17534 17563 E QT      : [QT]file does not exist
+10-22 19:45:29.750 17534 17560 D WM-ForceStopRunnable: Application was force-stopped, rescheduling.
+10-22 19:45:29.751 17534 17534 D TranClassInfo: instance successfully. com.transsion.hubcore.appturbo.TranAppturboServiceImpl@7032197 from com.transsion.hubcore.appturbo.ITranAppturboService
+10-22 19:45:29.751 17534 17534 D TranAppturboServiceImpl: attach
+10-22 19:45:29.752 17534 17534 D TranAppturboPolicyImpl: TranAppturboPolicyImpl new
+10-22 19:45:29.752 17534 17534 D TranClassInfo: instance successfully. com.transsion.hubcore.appturbo.TranAppturboPolicyImpl@25b7f84 from com.transsion.hubcore.appturbo.ITranAppturboPolicy
+10-22 19:45:29.752 17534 17534 D AppTurboPolicyImpl-TranBaseWrapper: TranBaseWrapper new, VERSION: KS-2.0.01KSMOOTH_V20_SUPPORT: false
+10-22 19:45:29.753 17534 17563 D libMEOW : applied 1 plugins for [org.fdroid.fdroid]:
+10-22 19:45:29.753 17534 17563 D libMEOW :   plugin 1: [libMEOW_gift.so]: 0xb400007c0be11030
+10-22 19:45:29.754 17534 17563 D libMEOW : rebuild call chain: 0xb400007c4be87090
+10-22 19:45:29.754 17534 17563 D libMEOW : meow delete tls: 0xb400007c4bea70b0
+10-22 19:45:29.760 17534 17534 I o.f.MainActivity: [main                ] onCreate(null)
+10-22 19:45:29.762 17534 17534 W libc    : Access denied finding property "vendor.transsion.scroll_adjust.support"
+10-22 19:45:29.763 17534 17560 D CompatibilityChangeReporter: Compat change id reported: 194532703; UID 10217; state: ENABLED
+10-22 19:45:29.763 17534 17560 D WM-SystemJobScheduler: Scheduling work ID f849a85e-bff9-4633-ab9a-b79c00644508Job ID 94
+10-22 19:45:29.765 17534 17534 D TranClassInfo: instance successfully. com.transsion.hubcore.view.TranViewImpl@e6951dd from com.transsion.hubcore.view.ITranView
+10-22 19:45:29.765 17534 17534 E g.fdroid.fdroid: Invalid ID 0x00000000.
+10-22 19:45:29.766 17534 17560 D WM-SystemJobScheduler: Scheduling work ID a4026a53-44bc-427b-871c-2d07ceb94018Job ID 93
+10-22 19:45:29.768 17534 17560 D WM-GreedyScheduler: Ignoring {WorkSpec: f849a85e-bff9-4633-ab9a-b79c00644508}. Requires device idle.
+10-22 19:45:29.769 17534 17534 D os.SingleLice: instance successfully. com.transsion.dragdrop.v1.DragDropLice@279c23 from com.transsion.dragdrop.DragDropLiceFactory
+10-22 19:45:29.769 17534 17534 D os.SingleLiceFactory: instance successfully. com.transsion.dragdrop.v1.DragDropLice@279c23 from android.view.IViewLice
+10-22 19:45:29.769 17534 17534 D os.LiceInfo: instance successfully. com.transsion.view.ViewLice@8825520 from android.view.IViewLice
+10-22 19:45:29.772 17534 17534 D TranClassInfo: instance successfully. com.transsion.hubcore.internal.TranInternalViewImpl@e07a34c from com.transsion.hubcore.internal.ITranInternalView
+10-22 19:45:29.773 17534 17534 D os.SingleLiceFactory: using com.android.internal.IInternalViewLice$DefaultImpl@5c9df95 instead of com.transsion.freeform.FreeformLiceFactory  from com.android.internal.IInternalViewLice
+10-22 19:45:29.773 17534 17534 D os.SingleLice: instance successfully. com.transsion.whitenavigation.v1.WhiteNavigationLice@b51c8aa from com.transsion.whitenavigation.WhiteNavigationLiceFactory
+10-22 19:45:29.773 17534 17534 D os.SingleLiceFactory: instance successfully. com.transsion.whitenavigation.v1.WhiteNavigationLice@b51c8aa from com.android.internal.IInternalViewLice
+10-22 19:45:29.773 17534 17534 D os.SingleLice: instance successfully. com.transsion.screenshothelper.v1.ScreenShotHelperImplLice@a726c9b from com.transsion.screenshothelper.ScreenShotHelperImplLiceFactory
+10-22 19:45:29.773 17534 17534 D os.SingleLiceFactory: instance successfully. com.transsion.screenshothelper.v1.ScreenShotHelperImplLice@a726c9b from com.android.internal.IInternalViewLice
+10-22 19:45:29.773 17534 17534 D os.LiceInfo: instance successfully. com.transsion.internal.InternalViewLice@ab1a838 from com.android.internal.IInternalViewLice
+10-22 19:45:29.774 17534 17534 D os.SingleLiceFactory: using com.android.internal.IInternalViewLice$DefaultImpl@5c9df95 instead of com.transsion.activityembedding.ActivityEmbeddingLiceFactory  from com.android.internal.IInternalViewLice
+10-22 19:45:29.774 17534 17534 D os.SingleLiceFactory: using com.android.internal.IInternalViewLice$DefaultImpl@5c9df95 instead of com.transsion.activityembedding.ActivityEmbeddingLiceFactory  from com.android.internal.IInternalViewLice
+10-22 19:45:29.774 17534 17534 D os.SingleLiceFactory: using com.android.internal.IInternalViewLice$DefaultImpl@5c9df95 instead of com.transsion.activityembedding.ActivityEmbeddingLiceFactory  from com.android.internal.IInternalViewLice
+10-22 19:45:29.774 17534 17534 D os.SingleLiceFactory: using com.android.internal.IInternalViewLice$DefaultImpl@5c9df95 instead of com.transsion.activityembedding.ActivityEmbeddingLiceFactory  from com.android.internal.IInternalViewLice
+10-22 19:45:29.774 17534 17534 I WhiteNavigationLice: Modify naviBarColor to 0xFFF0F0F0, and windowBackgroundColor is -328966   /windowIsTranslucent:false
+10-22 19:45:29.774 17534 17534 D os.SingleLiceFactory: using com.android.internal.IInternalViewLice$DefaultImpl@5c9df95 instead of com.transsion.activityembedding.ActivityEmbeddingLiceFactory  from com.android.internal.IInternalViewLice
+10-22 19:45:29.774 17534 17534 D os.SingleLiceFactory: using com.android.internal.IInternalViewLice$DefaultImpl@5c9df95 instead of com.transsion.activityembedding.ActivityEmbeddingLiceFactory  from com.android.internal.IInternalViewLice
+10-22 19:45:29.776 17534 17565 D WM-GreedyScheduler: Cancelling work ID a4026a53-44bc-427b-871c-2d07ceb94018
+10-22 19:45:29.779 17534 17534 D os.SingleLiceFactory: using com.android.internal.IInternalViewLice$DefaultImpl@5c9df95 instead of com.transsion.activityembedding.ActivityEmbeddingLiceFactory  from com.android.internal.IInternalViewLice
+10-22 19:45:29.779 17534 17534 D os.SingleLiceFactory: using com.android.internal.IInternalViewLice$DefaultImpl@5c9df95 instead of com.transsion.activityembedding.ActivityEmbeddingLiceFactory  from com.android.internal.IInternalViewLice
+10-22 19:45:29.779 17534 17534 D os.SingleLiceFactory: using com.android.internal.IInternalViewLice$DefaultImpl@5c9df95 instead of com.transsion.activityembedding.ActivityEmbeddingLiceFactory  from com.android.internal.IInternalViewLice
+10-22 19:45:29.780 17534 17534 D os.SingleLiceFactory: using com.android.internal.IInternalViewLice$DefaultImpl@5c9df95 instead of com.transsion.activityembedding.ActivityEmbeddingLiceFactory  from com.android.internal.IInternalViewLice
+10-22 19:45:29.780 17534 17534 D os.SingleLiceFactory: using com.android.internal.IInternalViewLice$DefaultImpl@5c9df95 instead of com.transsion.activityembedding.ActivityEmbeddingLiceFactory  from com.android.internal.IInternalViewLice
+10-22 19:45:29.780 17534 17534 D os.SingleLiceFactory: using com.android.internal.IInternalViewLice$DefaultImpl@5c9df95 instead of com.transsion.activityembedding.ActivityEmbeddingLiceFactory  from com.android.internal.IInternalViewLice
+10-22 19:45:29.781 17534 17534 D os.SingleLiceFactory: using com.android.internal.IInternalViewLice$DefaultImpl@5c9df95 instead of com.transsion.activityembedding.ActivityEmbeddingLiceFactory  from com.android.internal.IInternalViewLice
+10-22 19:45:29.781 17534 17534 D os.SingleLiceFactory: using com.android.internal.IInternalViewLice$DefaultImpl@5c9df95 instead of com.transsion.activityembedding.ActivityEmbeddingLiceFactory  from com.android.internal.IInternalViewLice
+10-22 19:45:29.782 17534 17534 D os.SingleLiceFactory: using com.android.internal.IInternalViewLice$DefaultImpl@5c9df95 instead of com.transsion.activityembedding.ActivityEmbeddingLiceFactory  from com.android.internal.IInternalViewLice
+10-22 19:45:29.782 17534 17534 D os.SingleLiceFactory: using com.android.internal.IInternalViewLice$DefaultImpl@5c9df95 instead of com.transsion.activityembedding.ActivityEmbeddingLiceFactory  from com.android.internal.IInternalViewLice
+10-22 19:45:29.786 17534 17565 D WM-SystemJobScheduler: Scheduling work ID a4026a53-44bc-427b-871c-2d07ceb94018Job ID 97
+10-22 19:45:29.786 17534 17534 D ActivityThread: ++ activityComponent:org.fdroid.fdroid/org.fdroid.IconActivity counts:1 ALEAK_CLEAR_SUPPORT:true
+10-22 19:45:29.786 17534 17546 D ActivityThreadLice: received OSMessage 110001
+10-22 19:45:29.787 17534 17546 D ActivityThreadLice: send OSMessage 110001 to [-1]
+10-22 19:45:29.788 17534 17565 D WM-GreedyScheduler: Ignoring {WorkSpec: f849a85e-bff9-4633-ab9a-b79c00644508}. Requires device idle.
+10-22 19:45:29.788 17534 17546 D OSServiceManager: update local os service os.activity from null to android.os.BinderProxy@1eb8049
+10-22 19:45:29.789 17534 17534 D os.SingleLiceFactory: using com.android.internal.IInternalViewLice$DefaultImpl@5c9df95 instead of com.transsion.activityembedding.ActivityEmbeddingLiceFactory  from com.android.internal.IInternalViewLice
+10-22 19:45:29.789 17534 17534 D os.SingleLiceFactory: using com.android.internal.IInternalViewLice$DefaultImpl@5c9df95 instead of com.transsion.activityembedding.ActivityEmbeddingLiceFactory  from com.android.internal.IInternalViewLice
+10-22 19:45:29.790 17534 17534 D TranActivityAppturboImpl: onResumeHork
+10-22 19:45:29.790 17534 17534 D TranAppturboServiceImpl: onResumeHork
+10-22 19:45:29.792 17534 17566 D WM-GreedyScheduler: Cancelling work ID f849a85e-bff9-4633-ab9a-b79c00644508
+10-22 19:45:29.794 17534 17534 I MSYNC3-VariableRefreshRate: Variable refreshrate is disabled
+10-22 19:45:29.795 17534 17566 D WM-SystemJobScheduler: Scheduling work ID f849a85e-bff9-4633-ab9a-b79c00644508Job ID 98
+10-22 19:45:29.798 17534 17566 D WM-GreedyScheduler: Ignoring {WorkSpec: f849a85e-bff9-4633-ab9a-b79c00644508}. Requires device idle.
+10-22 19:45:29.801 17534 17534 I SurfaceFactory: [static] sSurfaceFactory = com.mediatek.view.impl.SurfaceFactoryImpl@8d19e6f
+10-22 19:45:29.801 17534 17566 D WM-PackageManagerHelper: Skipping component enablement for androidx.work.impl.background.systemalarm.RescheduleReceiver
+10-22 19:45:29.810 17534 17534 D VRI[IconActivity]: hardware acceleration = true, forceHwAccelerated = false
+10-22 19:45:29.811 17534 17534 D os.SingleLiceFactory: using com.android.internal.IInternalViewLice$DefaultImpl@5c9df95 instead of com.transsion.activityembedding.ActivityEmbeddingLiceFactory  from com.android.internal.IInternalViewLice
+10-22 19:45:29.811 17534 17534 D os.SingleLiceFactory: using com.android.internal.IInternalViewLice$DefaultImpl@5c9df95 instead of com.transsion.activityembedding.ActivityEmbeddingLiceFactory  from com.android.internal.IInternalViewLice
+10-22 19:45:29.811 17534 17534 I config_debug: updateDecorCaptionStatus: {1.0 505mcc2mnc [en_US] ldltr sw360dp w360dp h744dp 480dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2460) mAppBounds=Rect(0, 108 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2460) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mMultiWindowMode=normal mMultiWindowId=0 mWindowResiable=6 mInLargeScreen=-1 mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0 mDisplayUniqueId=0} s.1 fontWeightAdjustment=0} fromMultiWindow: false
+10-22 19:45:29.812 17534 17567 D nativeloader: Load libpowerhalwrap_jni.so using system ns (caller=/system/framework/mediatek-framework.jar): ok
+10-22 19:45:29.812 17534 17567 I PowerHalWrapper: PowerHalWrapper.getInstance 
+10-22 19:45:29.817 17534 17534 D libMEOW : meow new tls: 0xb400007c4bea70b0
+10-22 19:45:29.817 17534 17534 D libMEOW : applied 1 plugins for [org.fdroid.fdroid]:
+10-22 19:45:29.817 17534 17534 D libMEOW :   plugin 1: [libMEOW_gift.so]: 0xb400007c0be11030
+10-22 19:45:29.817 17534 17534 D libMEOW : rebuild call chain: 0xb400007c4be87090
+10-22 19:45:29.818 17534 17534 D InputTransport: Create ARC handle: 0xb400007a6be67800
+10-22 19:45:29.825 17534 17534 D TranClassInfo: instance successfully. com.transsion.hubcore.flingmanager.TranFlingManagerImpl@3ae3a14 from com.transsion.hubcore.flingmanager.ITranFlingManager
+10-22 19:45:29.825 17534 17534 D TranClassInfo: instance successfully. com.transsion.hubcore.view.TranChoreographerImpl@65902bd from com.transsion.hubcore.view.ITranChoreographer
+10-22 19:45:29.825 17534 17534 D TranClassInfo: instance successfully. com.transsion.hubcore.appturbo.Implement.TranAppturboComponentImpl@de9f0b2 from com.transsion.hubcore.appturbo.ITranAppturboComponent
+10-22 19:45:29.831 17534 17534 D CompatibilityChangeReporter: Compat change id reported: 193247900; UID 10217; state: ENABLED
+10-22 19:45:29.849 17534 17572 D FDroidDatabase: DB already set up
+10-22 19:45:29.852 17534 17557 I o.f.i.InstalledAppsCache: [DefaultDispatcher-worker-1] Loading installed apps...
+10-22 19:45:29.855 17534 17534 D o.f.u.s.AppIconManager: [main                ] Found ComponentInfo{org.fdroid.fdroid/org.fdroid.IconActivity} with state of 0
+10-22 19:45:29.869 17534 17534 I o.f.r.RepoUpdateManager: [main                ] RepoUpdateManager initialized
+10-22 19:45:29.871 17534 17534 W libc    : Access denied finding property "vendor.transsion.scroll_adjust.support"
+10-22 19:45:29.882 17534 17534 I o.f.MainActivity: [main                ] Passing initial intent: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=org.fdroid.fdroid/org.fdroid.IconActivity bnds=[297,783][543,1077] (has extras) }
+10-22 19:45:29.882 17534 17534 I o.f.u.n.IntentRouter: [main                ] Incoming intent: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=org.fdroid.fdroid/org.fdroid.IconActivity bnds=[297,783][543,1077] (has extras) }
+10-22 19:45:29.885 17534 17534 D os.SingleLiceFactory: using com.android.internal.IInternalViewLice$DefaultImpl@5c9df95 instead of com.transsion.activityembedding.ActivityEmbeddingLiceFactory  from com.android.internal.IInternalViewLice
+10-22 19:45:29.885 17534 17534 D os.SingleLiceFactory: using com.android.internal.IInternalViewLice$DefaultImpl@5c9df95 instead of com.transsion.activityembedding.ActivityEmbeddingLiceFactory  from com.android.internal.IInternalViewLice
+10-22 19:45:29.885 17534 17534 D os.SingleLiceFactory: using com.android.internal.IInternalViewLice$DefaultImpl@5c9df95 instead of com.transsion.activityembedding.ActivityEmbeddingLiceFactory  from com.android.internal.IInternalViewLice
+10-22 19:45:29.928 17534 17534 D os.SingleLiceFactory: using com.android.internal.IInternalViewLice$DefaultImpl@5c9df95 instead of com.transsion.activityembedding.ActivityEmbeddingLiceFactory  from com.android.internal.IInternalViewLice
+10-22 19:45:29.928 17534 17534 D os.SingleLiceFactory: using com.android.internal.IInternalViewLice$DefaultImpl@5c9df95 instead of com.transsion.activityembedding.ActivityEmbeddingLiceFactory  from com.android.internal.IInternalViewLice
+10-22 19:45:29.928 17534 17534 D os.SingleLiceFactory: using com.android.internal.IInternalViewLice$DefaultImpl@5c9df95 instead of com.transsion.activityembedding.ActivityEmbeddingLiceFactory  from com.android.internal.IInternalViewLice
+10-22 19:45:29.936 17534 17534 D BufferQueueConsumer: [](id:447e00000000,api:0,p:-1,c:17534) connect: controlledByApp=false
+10-22 19:45:29.939 17534 17534 E FBI     : Can't load library: dlopen failed: library "libmagtsync.so" not found
+10-22 19:45:29.941 17534 17534 I config_debug: updateDecorCaptionStatus: {1.0 505mcc2mnc [en_US] ldltr sw360dp w360dp h744dp 480dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2460) mAppBounds=Rect(0, 108 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2460) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mMultiWindowMode=normal mMultiWindowId=0 mWindowResiable=6 mInLargeScreen=-1 mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0 mDisplayUniqueId=0} s.1 fontWeightAdjustment=0} fromMultiWindow: true
+10-22 19:45:29.941 17534 17561 D libMEOW : meow new tls: 0xb400007c4bec70d0
+10-22 19:45:29.941 17534 17561 D libMEOW : applied 1 plugins for [org.fdroid.fdroid]:
+10-22 19:45:29.941 17534 17561 D libMEOW :   plugin 1: [libMEOW_gift.so]: 0xb400007c0be11030
+10-22 19:45:29.941 17534 17561 D libMEOW : rebuild call chain: 0xb400007c4bf27130
+10-22 19:45:29.959 17534 17561 E OpenGLRenderer: Device claims wide gamut support, cannot find matching config, error = EGL_SUCCESS
+10-22 19:45:29.959 17534 17561 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+10-22 19:45:29.961 17534 17561 D skia    : GrGLMakeAssembledInterface verStr OpenGL ES 3.2 v1.r32p1-01eac0.2a893c04ca0026c2e6802dbe7d7af5c5
+10-22 19:45:29.961 17534 17561 D skia    : GrGLMakeAssembledGLESInterface verStr OpenGL ES 3.2 v1.r32p1-01eac0.2a893c04ca0026c2e6802dbe7d7af5c5
+10-22 19:45:29.961 17534 17561 D skia    : extensions init verString=OpenGL ES 3.2 v1.r32p1-01eac0.2a893c04ca0026c2e6802dbe7d7af5c5
+10-22 19:45:29.964 17534 17561 W OpenGLRenderer: ShaderCache::tranMaxTotalSize is 1048576
+10-22 19:45:29.979 17534 17561 I mali    : [DebugProp] GPU Debug-Mechanism Disable !
+10-22 19:45:30.007 17534 17561 D hw-ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+10-22 19:45:30.038 17534 17561 D BLASTBufferQueue: [VRI[IconActivity]#0](f:0,a:1) acquireNextBufferLocked size=1080x2460 mFrameNumber=1 applyTransaction=true mTimestamp=484352114181(auto) mPendingTransactions.size=0 graphicBufferId=75307956568067 transform=0
+10-22 19:45:30.041 17534 17561 W Parcel  : Expecting binder but got null!
+10-22 19:45:30.119 17534 17565 D WM-SystemJobScheduler: Scheduling work ID 39300527-8874-4414-9a81-9d8cc2188e6cJob ID 99
+10-22 19:45:30.129 17534 17565 D WM-GreedyScheduler: Ignoring {WorkSpec: f849a85e-bff9-4633-ab9a-b79c00644508}. Requires device idle.
+10-22 19:45:30.131 17534 17565 D WM-GreedyScheduler: Starting work for 39300527-8874-4414-9a81-9d8cc2188e6c
+10-22 19:45:30.134 17534 17534 D WM-SystemJobService: onStartJob for WorkGenerationalId(workSpecId=39300527-8874-4414-9a81-9d8cc2188e6c, generation=0)
+10-22 19:45:30.135 17534 17565 D WM-Processor: Processor: processing WorkGenerationalId(workSpecId=39300527-8874-4414-9a81-9d8cc2188e6c, generation=0)
+10-22 19:45:30.136 17534 17565 D WM-Processor: Work WorkGenerationalId(workSpecId=39300527-8874-4414-9a81-9d8cc2188e6c, generation=0) is already enqueued for processing
+10-22 19:45:30.146 17534 17534 D WM-WorkerWrapper: Starting work for org.fdroid.repo.RepoUpdateWorker
+10-22 19:45:30.150 17534 17559 I o.f.r.RepoUpdateWorker: [DefaultDispatcher-worker-3] Starting RepoUpdateWorker... org.fdroid.repo.RepoUpdateWorker@f3a57c9 stopReason: -256 0
+10-22 19:45:30.157 17534 17560 I WM-Processor: Moving WorkSpec (39300527-8874-4414-9a81-9d8cc2188e6c) to the foreground
+10-22 19:45:30.181 17534 17545 I libPerfCtl: xgfNotifyBufferQuota ret=-1
+10-22 19:45:30.208 17534 17559 D o.f.d.HttpDownloaderV2: [DefaultDispatcher-worker-3] Downloading /entry.jar (is resumable: false)
+10-22 19:45:30.214 17534 17559 D o.f.d.HttpManager: [DefaultDispatcher-worker-3] GET https://f-droid.org/repo/entry.jar
+10-22 19:45:30.225 17534 17534 D os.SingleLiceFactory: using com.android.internal.IInternalViewLice$DefaultImpl@5c9df95 instead of com.transsion.activityembedding.ActivityEmbeddingLiceFactory  from com.android.internal.IInternalViewLice
+10-22 19:45:30.225 17534 17534 D os.SingleLiceFactory: using com.android.internal.IInternalViewLice$DefaultImpl@5c9df95 instead of com.transsion.activityembedding.ActivityEmbeddingLiceFactory  from com.android.internal.IInternalViewLice
+10-22 19:45:30.225 17534 17534 D os.SingleLiceFactory: using com.android.internal.IInternalViewLice$DefaultImpl@5c9df95 instead of com.transsion.activityembedding.ActivityEmbeddingLiceFactory  from com.android.internal.IInternalViewLice
+10-22 19:45:30.291 17534 17534 I WM-SystemFgDispatcher: Started foreground service Intent { act=ACTION_START_FOREGROUND cmp=org.fdroid.fdroid/androidx.work.impl.foreground.SystemForegroundService (has extras) }
+10-22 19:45:30.292 17534 17534 D WM-SystemFgDispatcher: Notifying with (id:1, workSpecId: 39300527-8874-4414-9a81-9d8cc2188e6c, notificationType :-1)
+10-22 19:45:30.298 17534 17534 D WM-SystemFgDispatcher: Notifying with (id:1, workSpecId: 39300527-8874-4414-9a81-9d8cc2188e6c, notificationType :-1)
+10-22 19:45:30.572 17534 17600 W FeatureFlagsImplExport: java.lang.NoClassDefFoundError: Class not found using the boot class loader; no stack trace available
+10-22 19:45:31.273 17534 17610 D libMEOW : meow new tls: 0xb400007c4bfe71f0
+10-22 19:45:31.273 17534 17610 D libMEOW : applied 1 plugins for [org.fdroid.fdroid]:
+10-22 19:45:31.273 17534 17610 D libMEOW :   plugin 1: [libMEOW_gift.so]: 0xb400007c0be11030
+10-22 19:45:31.274 17534 17610 D libMEOW : rebuild call chain: 0xb400007c4bfd71e0
+10-22 19:45:31.275 17534 17610 E OpenGLRenderer: Device claims wide gamut support, cannot find matching config, error = EGL_SUCCESS
+10-22 19:45:31.275 17534 17610 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+10-22 19:45:31.277 17534 17578 D libMEOW : meow new tls: 0xb400007c4bfb71c0
+10-22 19:45:31.278 17534 17578 D libMEOW : applied 1 plugins for [org.fdroid.fdroid]:
+10-22 19:45:31.278 17534 17578 D libMEOW :   plugin 1: [libMEOW_gift.so]: 0xb400007c0be11030
+10-22 19:45:31.278 17534 17578 D libMEOW : rebuild call chain: 0xb400007c4c017220
+10-22 19:45:31.279 17534 17557 D libMEOW : meow new tls: 0xb400007c4c027230
+10-22 19:45:31.279 17534 17558 D libMEOW : meow new tls: 0xb400007c4bff7200
+10-22 19:45:31.279 17534 17557 D libMEOW : applied 1 plugins for [org.fdroid.fdroid]:
+10-22 19:45:31.279 17534 17558 D libMEOW : applied 1 plugins for [org.fdroid.fdroid]:
+10-22 19:45:31.279 17534 17557 D libMEOW :   plugin 1: [libMEOW_gift.so]: 0xb400007c0be11030
+10-22 19:45:31.279 17534 17558 D libMEOW :   plugin 1: [libMEOW_gift.so]: 0xb400007c0be11030
+10-22 19:45:31.280 17534 17558 D libMEOW : rebuild call chain: 0xb400007c4c037240
+10-22 19:45:31.280 17534 17557 D libMEOW : rebuild call chain: 0xb400007c4c007210
+10-22 19:45:31.281 17534 17574 D libMEOW : meow new tls: 0xb400007c4c047250
+10-22 19:45:31.281 17534 17574 D libMEOW : applied 1 plugins for [org.fdroid.fdroid]:
+10-22 19:45:31.281 17534 17574 D libMEOW :   plugin 1: [libMEOW_gift.so]: 0xb400007c0be11030
+10-22 19:45:31.281 17534 17574 D libMEOW : rebuild call chain: 0xb400007c4bf17120
+10-22 19:45:31.355 17534 17574 I o.f.u.UpdatesManager: [DefaultDispatcher-worker-4] Checking for updates (334 apps)...
+10-22 19:45:31.463 17534 17574 D o.f.u.UpdatesManager: [DefaultDispatcher-worker-4] Checking for updates took 108.145846ms
+10-22 19:45:31.684 17534 17559 D o.f.d.Downloader: [DefaultDispatcher-worker-3] onProgress: 2596/2596
+10-22 19:45:31.684 17534 17559 D o.f.r.RepoUpdateListener: [DefaultDispatcher-worker-3] Downloading https://f-droid.org/repo (2596/-1)
+10-22 19:45:31.700 17534 17559 D o.f.d.Downloader: [DefaultDispatcher-worker-3] onProgress: 2596/-1
+10-22 19:45:31.700 17534 17559 D o.f.r.RepoUpdateListener: [DefaultDispatcher-worker-3] Downloading https://f-droid.org/repo (2596/-1)
+10-22 19:45:31.707 17534 17559 I o.f.r.RepoUpdateManager: [DefaultDispatcher-worker-3] Update repo result: org.fdroid.index.IndexUpdateResult$Unchanged@4eb2b17
+10-22 19:45:31.708 17534 17559 I o.f.i.CacheCleaner: [DefaultDispatcher-worker-3] Cleaning up old files...
+10-22 19:45:31.712 17534 17559 I o.f.r.RepoUpdateWorker: [DefaultDispatcher-worker-3] finished doWork org.fdroid.repo.RepoUpdateWorker@f3a57c9 (stopReason: -256)
+10-22 19:45:31.713 17534 17565 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=39300527-8874-4414-9a81-9d8cc2188e6c, tags={ org.fdroid.repo.RepoUpdateWorker } ]
+10-22 19:45:31.721 17534 17534 D WM-Processor: Processor 39300527-8874-4414-9a81-9d8cc2188e6c executed; reschedule = false
+10-22 19:45:31.722 17534 17534 D WM-SystemJobService: 39300527-8874-4414-9a81-9d8cc2188e6c executed on JobScheduler
+10-22 19:45:31.722 17534 17534 D WM-SystemFgDispatcher: Removing Notification (id: 1, workSpecId: WorkGenerationalId(workSpecId=39300527-8874-4414-9a81-9d8cc2188e6c, generation=0), notificationType: -1
+10-22 19:45:31.722 17534 17534 I WM-SystemFgDispatcher: Stopping foreground service
+10-22 19:45:31.722 17534 17534 D WM-SystemFgService: Shutting down.
+10-22 19:45:31.725 17534 17564 D WM-GreedyScheduler: Cancelling work ID 39300527-8874-4414-9a81-9d8cc2188e6c
+10-22 19:45:31.728 17534 17564 D WM-GreedyScheduler: Ignoring {WorkSpec: f849a85e-bff9-4633-ab9a-b79c00644508}. Requires device idle.
+10-22 19:45:31.732 17534 17534 D WM-SystemJobService: onStopJob for WorkGenerationalId(workSpecId=39300527-8874-4414-9a81-9d8cc2188e6c, generation=0)
+10-22 19:45:32.070 17534 17559 D libMEOW : meow new tls: 0xb400007c4c0a72b0
+10-22 19:45:32.070 17534 17559 D libMEOW : applied 1 plugins for [org.fdroid.fdroid]:
+10-22 19:45:32.070 17534 17559 D libMEOW :   plugin 1: [libMEOW_gift.so]: 0xb400007c0be11030
+10-22 19:45:32.070 17534 17559 D libMEOW : rebuild call chain: 0xb400007c4c087290
+10-22 19:45:32.322 17534 17534 D os.LiceInfo: instance successfully. com.transsion.message.bank.v1.MessageBankLice@f3434b9 from com.transsion.message.bank.IMessageBankLice
+10-22 19:45:32.332 17534 17534 W libc    : Access denied finding property "vendor.scroll.fpsgo.release"
+10-22 19:45:32.334 17534 17534 D TranClassInfo: instance successfully. com.transsion.hubcore.internal.policy.TranDecorViewImpl@3cd437b from com.transsion.hubcore.internal.policy.ITranDecorView
+10-22 19:45:32.421 17534 17534 I o.f.u.r.RepositoriesViewModel: [main                ] onRepositoriesChanged(2)
+10-22 19:45:32.422 17534 17534 I o.f.u.r.RepositoriesViewModel: [main                ] Adding repos [https://f-droid.org/repo]
+10-22 19:45:32.460 17534 17578 D o.f.d.HttpManager: [DefaultDispatcher-worker-8] GET https://plug-mirror.rcac.purdue.edu/fdroid/repo/icons/icon.png
+10-22 19:45:32.640 17534 17540 I g.fdroid.fdroid: Background concurrent copying GC freed 28MB AllocSpace bytes, 35(1332KB) LOS objects, 49% free, 19MB/39MB, paused 158us,44us total 221.294ms
+10-22 19:45:37.811 17534 17534 D VRI[IconActivity]: hardware acceleration = true, forceHwAccelerated = false
+10-22 19:45:37.819 17534 17534 D InputTransport: Create ARC handle: 0xb400007a6be8c580
+10-22 19:45:37.844 17534 17534 D BufferQueueConsumer: [](id:447e00000001,api:0,p:-1,c:17534) connect: controlledByApp=false
+10-22 19:45:37.845 17534 17534 I config_debug: updateDecorCaptionStatus: {1.0 505mcc2mnc [en_US] ldltr sw360dp w360dp h744dp 480dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2460) mAppBounds=Rect(0, 108 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2460) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mMultiWindowMode=normal mMultiWindowId=0 mWindowResiable=6 mInLargeScreen=-1 mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0 mDisplayUniqueId=0} s.1 fontWeightAdjustment=0} fromMultiWindow: true
+10-22 19:45:37.855 17534 17561 D BLASTBufferQueue: [VRI[IconActivity]#1](f:0,a:1) acquireNextBufferLocked size=1152x1128 mFrameNumber=1 applyTransaction=true mTimestamp=492169163412(auto) mPendingTransactions.size=0 graphicBufferId=75307956568083 transform=0
+10-22 19:45:37.855 17534 17561 W Parcel  : Expecting binder but got null!
+10-22 19:45:39.639 17534 17561 D OpenGLRenderer: endAllActiveAnimators on 0xb400007b5beb28d0 (UnprojectedRipple) with handle 0xb400007a6be9a530
+10-22 19:45:39.640 17534 17534 D View    : [Warning] assignParent to null: this = DecorView@926a723[IconActivity]
+10-22 19:45:39.653 17534 17545 D BLASTBufferQueue: [VRI[IconActivity]#1](f:0,a:1) destructor()
+10-22 19:45:39.653 17534 17545 D BufferQueueConsumer: [VRI[IconActivity]#1(BLAST Consumer)1](id:447e00000001,api:0,p:-1,c:17534) disconnect
+10-22 19:45:39.655 17534 17534 D InputTransport: Destroy ARC handle: 0xb400007a6be8c580
+10-22 19:45:42.607 17534 17534 D o.f.u.s.AppIconManager: [main                ] Found ComponentInfo{org.fdroid.fdroid/org.fdroid.IconActivity} with state of 0
+10-22 19:45:45.652 17534 17534 D TranClassInfo: instance successfully. com.transsion.hubcore.magellan.Implement.TranMagellanComponentImpl@5b65850 from com.transsion.hubcore.magellan.ITranMagellanComponent
+10-22 19:45:45.652 17534 17534 D TranFlingManagerImpl: getYVelocity origin-value = 194.29861 ksmooth-value = 194.29861 strengthVelocity = 194.29861 final velocity = 194.29861
+10-22 19:45:45.652 17534 17534 I ScrollIdentify: on fling
+10-22 19:45:48.205 17534 17534 D TranFlingManagerImpl: getYVelocity origin-value = -5728.638 ksmooth-value = -5728.638 strengthVelocity = -5728.638 final velocity = -5728.638
+10-22 19:45:48.205 17534 17534 I ScrollIdentify: on fling
+10-22 19:45:48.208 17534 17613 D TranClassInfo: instance successfully. com.transsion.hubcore.widget.TranScrollPolicyImpl@84fa219 from com.transsion.hubcore.widget.ITranScrollPolicy
+10-22 19:45:48.648 17534 17534 D TranFlingManagerImpl: getYVelocity origin-value = 62.953884 ksmooth-value = 62.95388 strengthVelocity = 62.953884 final velocity = 62.953884
+10-22 19:45:49.688 17534 17534 D VRI[IconActivity]: hardware acceleration = true, forceHwAccelerated = false
+10-22 19:45:49.696 17534 17534 D InputTransport: Create ARC handle: 0xb400007a6beaf320
+10-22 19:45:49.727 17534 17534 D BufferQueueConsumer: [](id:447e00000002,api:0,p:-1,c:17534) connect: controlledByApp=false
+10-22 19:45:49.727 17534 17534 I config_debug: updateDecorCaptionStatus: {1.0 505mcc2mnc [en_US] ldltr sw360dp w360dp h744dp 480dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2460) mAppBounds=Rect(0, 108 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2460) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mMultiWindowMode=normal mMultiWindowId=0 mWindowResiable=6 mInLargeScreen=-1 mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0 mDisplayUniqueId=0} s.1 fontWeightAdjustment=0} fromMultiWindow: true
+10-22 19:45:49.737 17534 17561 D BLASTBufferQueue: [VRI[IconActivity]#2](f:0,a:1) acquireNextBufferLocked size=1152x1176 mFrameNumber=1 applyTransaction=true mTimestamp=504051248029(auto) mPendingTransactions.size=0 graphicBufferId=75307956568086 transform=0
+10-22 19:45:49.737 17534 17561 W Parcel  : Expecting binder but got null!
+10-22 19:45:52.592 17534 17534 D CompatibilityChangeReporter: Compat change id reported: 119147584; UID 10217; state: ENABLED
+10-22 19:45:52.592 17534 17534 I AppUpdateWorker: scheduleOrCancel: enqueueUniquePeriodicWork
+10-22 19:45:52.595 17534 17566 D WM-GreedyScheduler: Cancelling work ID f849a85e-bff9-4633-ab9a-b79c00644508
+10-22 19:45:52.599 17534 17566 D WM-SystemJobScheduler: Scheduling work ID f849a85e-bff9-4633-ab9a-b79c00644508Job ID 100
+10-22 19:45:52.601 17534 17566 D WM-GreedyScheduler: Ignoring {WorkSpec: f849a85e-bff9-4633-ab9a-b79c00644508}. Requires device idle.
+10-22 19:45:52.614 17534 17534 D View    : [Warning] assignParent to null: this = DecorView@940c54e[IconActivity]
+10-22 19:45:52.614 17534 17534 D BLASTBufferQueue: [VRI[IconActivity]#2](f:0,a:1) destructor()
+10-22 19:45:52.614 17534 17534 D BufferQueueConsumer: [VRI[IconActivity]#2(BLAST Consumer)2](id:447e00000002,api:0,p:-1,c:17534) disconnect
+10-22 19:45:52.622 17534 17534 D InputTransport: Destroy ARC handle: 0xb400007a6beaf320
+10-22 19:45:55.255 17534 17534 D VRI[IconActivity]: hardware acceleration = true, forceHwAccelerated = false
+10-22 19:45:55.261 17534 17534 D InputTransport: Create ARC handle: 0xb400007a6beb1fc0
+10-22 19:45:55.281 17534 17534 D BufferQueueConsumer: [](id:447e00000003,api:0,p:-1,c:17534) connect: controlledByApp=false
+10-22 19:45:55.282 17534 17534 I config_debug: updateDecorCaptionStatus: {1.0 505mcc2mnc [en_US] ldltr sw360dp w360dp h744dp 480dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2460) mAppBounds=Rect(0, 108 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2460) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mMultiWindowMode=normal mMultiWindowId=0 mWindowResiable=6 mInLargeScreen=-1 mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0 mDisplayUniqueId=0} s.1 fontWeightAdjustment=0} fromMultiWindow: true
+10-22 19:45:55.292 17534 17561 D BLASTBufferQueue: [VRI[IconActivity]#3](f:0,a:1) acquireNextBufferLocked size=1152x1032 mFrameNumber=1 applyTransaction=true mTimestamp=509606308414(auto) mPendingTransactions.size=0 graphicBufferId=75307956568090 transform=0
+10-22 19:45:55.293 17534 17561 W Parcel  : Expecting binder but got null!
+10-22 19:45:58.490 17534 17561 D OpenGLRenderer: endAllActiveAnimators on 0xb400007b5bef8f60 (UnprojectedRipple) with handle 0xb400007a6be9def0
+10-22 19:45:58.490 17534 17534 D View    : [Warning] assignParent to null: this = DecorView@977bffa[IconActivity]
+10-22 19:45:58.499 17534 17534 D InputTransport: Destroy ARC handle: 0xb400007a6beb1fc0
+10-22 19:45:58.515 17534 17545 D BLASTBufferQueue: [VRI[IconActivity]#3](f:0,a:1) destructor()
+10-22 19:45:58.515 17534 17545 D BufferQueueConsumer: [VRI[IconActivity]#3(BLAST Consumer)3](id:447e00000003,api:0,p:-1,c:17534) disconnect
+10-22 19:46:02.161 17534 17534 D TranFlingManagerImpl: getYVelocity origin-value = -142.7937 ksmooth-value = -142.7937 strengthVelocity = -142.7937 final velocity = -142.7937
+10-22 19:46:02.161 17534 17534 I ScrollIdentify: on fling
+10-22 19:46:07.056 17534 17534 D CompatibilityChangeReporter: Compat change id reported: 171228096; UID 10217; state: ENABLED
+10-22 19:46:07.231 17534 17534 D TranFlingManagerImpl: getYVelocity origin-value = -420.66046 ksmooth-value = -420.66046 strengthVelocity = -420.66046 final velocity = -420.66046
+10-22 19:46:07.231 17534 17534 I ScrollIdentify: on fling
+10-22 19:46:09.612 17534 17534 D TranFlingManagerImpl: getYVelocity origin-value = -299.0391 ksmooth-value = -299.0391 strengthVelocity = -299.0391 final velocity = -299.0391
+10-22 19:46:09.612 17534 17534 I ScrollIdentify: on fling
+10-22 19:46:10.626 17534 17561 D OpenGLRenderer: endAllActiveAnimators on 0xb400007b5beba990 (UnprojectedRipple) with handle 0xb400007a6be99690
+10-22 19:46:10.632 17534 17534 D BLASTBufferQueue: [VRI[IconActivity]#0](f:0,a:1) destructor()
+10-22 19:46:10.632 17534 17534 D BufferQueueConsumer: [VRI[IconActivity]#0(BLAST Consumer)0](id:447e00000000,api:0,p:-1,c:17534) disconnect
+10-22 19:46:11.055 17534 17561 I GED     : ged_boost_gpu_freq, level 100, eOrigin 2, final_idx 31, oppidx_max 31, oppidx_min 0
+10-22 19:46:36.464 17534 17534 D CompatibilityChangeReporter: Compat change id reported: 78294732; UID 10217; state: ENABLED
+10-22 19:46:36.470 17534 17534 D TranActivityAppturboImpl: onResumeHork
+10-22 19:46:36.470 17534 17534 D TranAppturboServiceImpl: onResumeHork
+10-22 19:46:36.503 17534 17534 D BufferQueueConsumer: [](id:447e00000004,api:0,p:-1,c:17534) connect: controlledByApp=false
+10-22 19:46:36.527 17534 17561 D BLASTBufferQueue: [VRI[IconActivity]#4](f:0,a:1) acquireNextBufferLocked size=1080x2460 mFrameNumber=1 applyTransaction=true mTimestamp=550841051108(auto) mPendingTransactions.size=0 graphicBufferId=75307956568094 transform=0
